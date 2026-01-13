@@ -1,6 +1,5 @@
 <x-layouts.admin title="History Pembelian">
     <div class="min-h-screen bg-white">
-        <!-- Header -->
         <div class="border-b border-gray-200">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
                 <h1 class="text-2xl font-semibold text-gray-900">History Pembelian</h1>
@@ -8,9 +7,7 @@
             </div>
         </div>
 
-        <!-- Content -->
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <!-- Table -->
             <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
                 <div class="overflow-x-auto">
                     <table class="w-full">

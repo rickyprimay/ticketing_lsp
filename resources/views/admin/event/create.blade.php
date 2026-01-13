@@ -1,6 +1,5 @@
 <x-layouts.admin title="Tambah Event Baru">
     <div class="min-h-screen bg-white">
-        <!-- Header -->
         <div class="border-b border-gray-200">
             <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
                 <h1 class="text-2xl font-semibold text-gray-900">Tambah Event Baru</h1>
@@ -8,7 +7,6 @@
             </div>
         </div>
 
-        <!-- Content -->
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             @if ($errors->any())
                 <div class="mb-6 p-4 bg-red-50 border border-red-200 rounded-md">
