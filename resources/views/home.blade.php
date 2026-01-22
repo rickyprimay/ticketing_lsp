@@ -33,6 +33,7 @@
                 :location="$event->location"
                 :price="$event->tickets_min_price" 
                 :image="$event->image" 
+                :href="route('events.show', $event)" 
             />
             @empty
             <div class="col-span-full text-center py-12">
