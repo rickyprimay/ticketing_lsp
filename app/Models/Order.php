@@ -21,19 +21,13 @@ class Order extends Model
         return $this->belongsTo(User::class);
     }
 
-    public function tickets()
-    {
-        return $this->belongsToMany(Tickets::class, 'detail_orders')
-            ->withPivot('amount', 'price_amount');
-    }
-
     public function event()
     {
         return $this->belongsTo(Event::class, 'event_id');
     }
 
-    public function detailOrders()
+    public function detail_orders()
     {
-        return $this->hasMany(DetailOrder::class);
+        return $this->hasMany(DetailOrder::class, 'order_id');
     }
 }

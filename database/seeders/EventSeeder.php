@@ -17,7 +17,7 @@ class EventSeeder extends Seeder
                 'date_time' => '2024-08-15 19:00:00',
                 'location' => 'Stadion Utama',
                 'category_id' => 1,
-                'image' => 'events/konser_rock.jpg',
+                'image' => '1768320351.png',
             ],
             [
                 'user_id' => 1,
@@ -26,7 +26,7 @@ class EventSeeder extends Seeder
                 'date_time' => '2024-09-10 10:00:00',
                 'location' => 'Galeri Seni Kota',
                 'category_id' => 2,
-                'image' => 'events/pameran_seni.jpg',
+                'image' => '1768320351.png',
             ],
             [
                 'user_id' => 1,
@@ -35,7 +35,7 @@ class EventSeeder extends Seeder
                 'date_time' => '2024-10-05 12:00:00',
                 'location' => 'Taman Kota',
                 'category_id' => 3,
-                'image' => 'events/festival_makanan.jpg',
+                'image' => '1768320351.png',
             ],
         ];
 
